@@ -1,0 +1,15 @@
+Comando:
+•	Crear documento:
+-Composer create-project laravel/laravel crudferreteria
+
+•	Crear controlador:
+-php artisan make:controller controlproductos
+
+•	Crear campos base
+-php artisan make:migration productos
+
+•	Subir información a la base
+-php artisan migrate
+
+•	Crear modelo
+-php artisan make:model Productos
